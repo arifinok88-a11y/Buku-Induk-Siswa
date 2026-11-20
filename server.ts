@@ -20,7 +20,7 @@ function readSettings() {
       console.error("Error reading settings file:", e);
     }
   }
-  return { scriptUrl: "", appName: "EduConnect", folderId: "", adminUsername: "admin", adminPassword: "admin", schoolLogoUrl: "", tahunPelajaran: "2025/2026", schoolName: "" };
+  return { scriptUrl: "", appName: "BUKU INDUK", folderId: "", adminUsername: "admin", adminPassword: "admin", schoolLogoUrl: "", tahunPelajaran: "2026/2027", schoolName: "SMAN 1 NANGA PINOH" };
 }
 
 // Helper to write settings
