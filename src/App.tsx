@@ -174,7 +174,7 @@ function App() {
     return <Login />;
   }
 
-  const displayName = settings.schoolName || settings.appName || 'SDN Citapen';
+  const displayName = settings.schoolName || settings.appName || 'SMAN 1 NANGA PINOH';
 
   const handleLogout = () => {
     setShowLogoutConfirm(true);
