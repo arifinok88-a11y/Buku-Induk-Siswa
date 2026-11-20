@@ -11,11 +11,11 @@ export default function Login() {
   const [error, setError] = useState('');
   const [isLoggingIn, setIsLoggingIn] = useState(false);
 
-  const schoolName = settings?.schoolName || 'SDN Citapen';
+  const schoolName = settings?.schoolName || 'SMAN 1 Nanga Pinoh';
   const subtitle = (settings?.appName && settings.appName.trim().toLowerCase() !== schoolName.trim().toLowerCase()) 
     ? settings.appName 
     : 'Sistem Informasi Siswa';
-  const tahunPelajaran = settings?.tahunPelajaran || '2025/2026';
+  const tahunPelajaran = settings?.tahunPelajaran || '2026/2027';
 
   const handleLogin = (e: React.FormEvent) => {
     e.preventDefault();
