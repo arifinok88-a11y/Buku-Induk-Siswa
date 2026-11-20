@@ -13,9 +13,9 @@ export default defineConfig(({mode}) => {
       VitePWA({
         registerType: 'autoUpdate',
         manifest: {
-          name: 'Sistem Informasi Siswa SD',
+          name: 'Sistem Informasi Siswa SMA',
           short_name: 'SI Siswa',
-          description: 'Aplikasi manajemen data siswa Sekolah Dasar terintegrasi.',
+          description: 'Aplikasi manajemen data siswa Sekolah Menengah terintegrasi.',
           theme_color: '#4f46e5',
           background_color: '#ffffff',
           display: 'standalone',
