@@ -143,7 +143,7 @@ export default function Settings() {
               <input 
                 type="text" 
                 className="input w-full text-sm sm:text-base font-semibold" 
-                placeholder="Contoh: SD Negeri 1 Sukanagara"
+                placeholder="Contoh: SMA Negeri 1 Nanga Pinoh"
                 value={schoolName}
                 onChange={(e) => setSchoolName(e.target.value)}
               />
@@ -158,7 +158,7 @@ export default function Settings() {
                 Tahun Pelajaran (Ajaran)
               </label>
               <span className="text-[11px] font-bold text-indigo-600 bg-indigo-100 px-2.5 py-0.5 rounded-full">
-                Aktif: {tahunPelajaran || '2025/2026'}
+                Aktif: {tahunPelajaran || '2026/2027'}
               </span>
             </div>
             <div className="flex flex-col sm:flex-row gap-3 items-center">
@@ -170,7 +170,7 @@ export default function Settings() {
                 onChange={(e) => setTahunPelajaran(e.target.value)}
               />
               <div className="flex flex-wrap gap-1.5 w-full sm:w-auto">
-                {['2024/2025', '2025/2026', '2026/2027', '2027/2028'].map((year) => (
+                {['2026/2027', '2027/2028', '2028/2029', '2029/2030'].map((year) => (
                   <button
                     key={year}
                     type="button"
