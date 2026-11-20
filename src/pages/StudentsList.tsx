@@ -378,7 +378,7 @@ export default function StudentsList() {
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-6">
         <div>
           <h2 className="text-3xl font-bold tracking-tight text-indigo-900">Data Siswa</h2>
-          <p className="text-gray-500 mt-1 font-medium">Kelola data murid kelas 1-6.</p>
+          <p className="text-gray-500 mt-1 font-medium">Kelola data siswa kelas X-XII.</p>
         </div>
         
         <div className="grid grid-cols-2 sm:flex sm:flex-wrap gap-2 w-full sm:w-auto">
