@@ -240,7 +240,7 @@ export default function StudentsList() {
 
   const downloadPDF = () => {
     const doc = new jsPDF();
-    const title = `Daftar Siswa SD - ${filterClass ? 'Kelas ' + filterClass : 'Semua Kelas'}`;
+    const title = `Daftar Siswa SMAN 1 NANGA PINOH - ${filterClass ? 'Kelas ' + filterClass : 'Semua Kelas'}`;
     
     doc.setFont("Helvetica", "bold");
     doc.setFontSize(16);
@@ -1024,7 +1024,7 @@ export default function StudentsList() {
            </div>
            
            <div className="text-center mb-6">
-              <h1 className="text-xl sm:text-2xl font-black uppercase tracking-tight">DAFTAR SISWA SD</h1>
+              <h1 className="text-xl sm:text-2xl font-black uppercase tracking-tight">DAFTAR SISWA SMAN 1 NANGA PINOH </h1>
               <p className="text-slate-600 font-semibold text-sm">
                 {filterClass ? `KELAS ${filterClass}` : 'SEMUA KELAS'}
               </p>
