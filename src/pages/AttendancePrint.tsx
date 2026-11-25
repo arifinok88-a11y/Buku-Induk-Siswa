@@ -430,7 +430,7 @@ export default function AttendancePrint() {
                       BERKAS ADMINISTRASI KELAS {selectedClass}
                     </h1>
                     <p className="text-lg font-bold text-gray-700 print:text-black uppercase tracking-wider">
-                      {settings.schoolName || settings.appName || 'SDN Citapen'}
+                      {settings.schoolName || settings.appName || 'SMAN 1 NANGA PINOH'}
                     </p>
                     <p className="text-sm font-semibold text-gray-500 print:text-black mt-1">
                       TAHUN PELAJARAN {selectedAcademicYear}
@@ -440,7 +440,7 @@ export default function AttendancePrint() {
                   <div className="my-12 py-8 border-y-2 border-dashed border-indigo-200 print:border-black text-left max-w-md mx-auto space-y-3 text-sm font-medium">
                     <div className="flex justify-between">
                       <span className="text-gray-600 print:text-black">Satuan Pendidikan:</span>
-                      <span className="font-bold text-gray-900 print:text-black">{settings.schoolName || settings.appName || 'SDN Citapen'}</span>
+                      <span className="font-bold text-gray-900 print:text-black">{settings.schoolName || settings.appName || 'SMAN 1 NANGA PINOH'}</span>
                     </div>
                     <div className="flex justify-between">
                       <span className="text-gray-600 print:text-black">Kelas / Rombel:</span>
