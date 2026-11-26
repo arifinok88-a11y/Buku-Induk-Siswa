@@ -965,7 +965,7 @@ export default function StudentsList() {
            
            <div className="text-center mb-6 border-b-2 border-slate-800 pb-3">
               <h1 className="text-xl sm:text-2xl font-black uppercase tracking-tight">Biodata Siswa</h1>
-              <p className="text-slate-600 text-sm font-medium">Sekolah Dasar</p>
+              <p className="text-slate-600 text-sm font-medium">SMA NEGERI 1 NANGA PINOH</p>
            </div>
            
            <div className="flex flex-row justify-between items-start gap-6 mb-6">
