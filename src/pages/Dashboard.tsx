@@ -149,7 +149,7 @@ export default function Dashboard() {
         )}
         <div>
           <h2 className="text-3xl font-bold tracking-tight text-indigo-900">Dashboard</h2>
-          <p className="text-gray-500 mt-1 font-medium">Ringkasan data siswa dan statistik kelas aktif.</p>
+          <p className="text-gray-500 mt-1 font-medium">Ringkasan Buku Induk Siswa dan statistik kelas aktif.</p>
         </div>
       </div>
 
