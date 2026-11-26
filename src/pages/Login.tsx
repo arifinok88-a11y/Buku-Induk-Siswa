@@ -225,7 +225,7 @@ export default function Login() {
           <div className="relative z-10 max-w-lg">
             <Quote className="w-8 h-8 lg:w-10 lg:h-10 text-amber-500 mb-2.5 sm:mb-3 rotate-180" />
             <p className="text-slate-800 font-bold text-sm lg:text-lg leading-relaxed tracking-tight">
-              Aplikasi Sistem Informasi Siswa terpadu untuk kemudahan pengelolaan data absensi, leger nilai, mutasi akademik, serta rekam jejak siswa secara efisien.
+              Buku Induk Siswa terpadu untuk kemudahan pengelolaan data absensi, leger nilai, mutasi akademik, serta rekam jejak siswa secara efisien.
             </p>
 
             <div className="flex items-center gap-3.5 mt-4 sm:mt-6">
