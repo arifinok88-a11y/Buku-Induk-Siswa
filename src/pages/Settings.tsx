@@ -266,7 +266,7 @@ export default function Settings() {
             <input 
               type="text" 
               className="input w-full text-sm sm:text-base" 
-              placeholder="https://script.google.com/macros/s/.../exec"
+              placeholder="https://script.google.com/macros/s/AKfycbxy55BSXgUwgGfjdaN1WHwD2oVCZx_B9TA5SLEV102cinhAJKWqnwDOGjUynXgxyz2s/exec"
               value={url}
               onChange={(e) => setUrl(e.target.value)}
             />
